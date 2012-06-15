@@ -1,0 +1,59 @@
+2012
+#2012 - 2013
+
+#vakantiedagen (per definitie ook sluitingsdagen)
+VAK 15-8  #Onze-Lieve-Vrouw-Hemelvaart
+VAK 11-11 #Wapenstilstand
+VAK 25-12 #Kerstmis
+VAK 1-1   #Nieuwjaar
+VAK 1-5   #Dag van de Arbeid
+
+VAK 1-4   #Paasmaandag
+VAK 9-5   #Hemelvaart
+VAK 20-5  #Pinkstermaandag
+
+#sluitingsdagen (niet verlofdagen waarop we toch sluiten)
+S   24-12 #kerstavond
+S   31-12 #oudjaar
+
+
+S   30-10 #dinsdag tijdens herfstvakantie
+S   2-11  #dinsdag tijdens herfstvakantie
+
+S   26-12 #woensdag tijdens kerstvakantie
+S   28-12 #vrijdag tijdens kerstvakantie
+S   29-12 #zaterdag tijdens kerstvakantie
+S   2-1   #woensdag tijdens kerstvakantie
+S   4-1   #vrijdag tijdens kerstvakantie
+
+S   12-2  #dinsdag tijdens krokusvakantie
+S   15-2  #vrijdag tijdens krokusvakantie
+
+S   2-4   #dinsdag tijdens paasvakantie
+S   5-4   #vrijdag tijdens paasvakantie
+S   9-4   #dinsdag tijdens paasvakantie
+S   12-4  #vrijdag tijdens paasvakantie
+
+S   *-7   #gesloten in juli
+S   1-8 > 15-8 #gesloten begin augustus
+
+#Vrije schermavonden
+VRIJ 5-6
+VRIJ 12-6
+VRIJ 19-6
+VRIJ 26-6
+
+#PUF tornooien
+PUF 16-9 #eerste tornooi
+         #Pannenkoek Unique
+PUF 23-6 #laatste tornooi
+
+#VSB beker
+VSB 26-8 #geen echte datum
+
+#trainingen WM (vakantiedagen dat er toch schermen is in Waasmunster)
+#formaat: WM <datum>
+
+#trainingen DM (vakantiedagen dat er toch schermen is in Dendermonde)
+#formaat: DM <datum>
+

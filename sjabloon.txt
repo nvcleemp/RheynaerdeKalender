@@ -1,0 +1,67 @@
+
+\documentclass{article}
+\usepackage[dutch]{babel}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+\usetikzlibrary{positioning,calendar,er}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{shapes.geometric}
+
+\newcommand{\calrow}[1]{\node[anchor=mid](maandag){m};
+\node[base right=of maandag](dinsdag){d}; \node[base right=of dinsdag](woensdag){w};
+\node[base right=of woensdag](donderdag){d}; \node[base right=of donderdag](vrijdag){v};
+\node[base right=of vrijdag](zaterdag){z}; \node[base right=of zaterdag](zondag){z};
+\node[darkgreen,above=of donderdag]{\textbf{#1}};}
+
+\newcommand{\calperiod}[1]{\calendar (#1) [dates=%d-#1-01 to %d-#1-last]
+if(Sunday) [black!50] \trainingen;}
+\newcommand{\calperiodtwee}[1]{\calendar[dates=%d-#1-01 to %d-#1-last]
+if(Sunday) [black!50] \trainingen;}
+
+\newcommand{\trainingen}{%%
+%s}
+
+\newcommand{\waasmunster}{\node [anchor=base,fill=lightgray,draw=lightgray,rounded corners=0pt,inner sep=0pt,minimum size=10pt] {};}
+\newcommand{\oefenWM}{\node [draw=gray,regular polygon,regular polygon sides=5,rounded corners=0pt] {};}
+\newcommand{\dendermonde}{\node [fill=lightgray,draw=lightgray,circle,rounded corners=0pt] {};}
+\newcommand{\puf}{\node [draw=lightgray,regular polygon,regular polygon sides=3,rounded corners=0pt] {};}
+\newcommand{\vsb}{\node [draw=lightgray,star,star point ratio=1.65,rounded corners=0pt] {};}
+
+\colorlet{darkgreen}{green!50!black}
+
+\begin{document}
+\begin{center}
+\begin{tikzpicture}[every calendar/.style={week list},every day/.style={anchor=center,day text={\%%d=}}]
+\sffamily
+\matrix[%%
+row 1/.style={darkgreen,node distance=.65ex},%%
+row 3/.style={darkgreen,node distance=.65ex},%%
+row 5/.style={darkgreen,node distance=.65ex},%%
+row 7/.style={darkgreen,node distance=.65ex},%%
+nodes={inner sep=.3333em},inner sep=10pt,column sep=5ex,draw=darkgreen,thick,rounded corners=5pt,%%
+postaction={decorate,decoration={markings,mark=at position 0.53 with {\node[fill=white,text=darkgreen,font={\bfseries\Large}] (jaar) {%d - %d};}}}
+]{%%
+\calrow{Augustus} & \calrow{September} & \calrow{Oktober} \\
+\calperiod{08} & \calperiod{09} & \calperiod{10}  \\[1ex]
+%%
+\calrow{November} & \calrow{December} & \calrow{Januari}  \\
+\calperiod{11} & \calperiod{12} & \calperiodtwee{01} \\[1ex]
+%%
+\calrow{Februari} & \calrow{Maart} & \calrow{April}   \\
+\calperiodtwee{02} & \calperiodtwee{03} & \calperiodtwee{04}  \\[1ex]
+%%
+\calrow{Mei} & \calrow{Juni} & \calrow{Juli}  \\
+\calperiodtwee{05} & \calperiodtwee{06} & \calperiodtwee{07} \\
+};
+
+\end{tikzpicture}
+
+\tikz\dendermonde; Training in Dendermonde\\
+\tikz\waasmunster; Training in Waasmunster\\
+\tikz\oefenWM; Vrij schermen in Waasmunster\\
+\tikz\puf; PUF\\
+\tikz\vsb; VSB-beker
+
+\end{center}
+
+\end{document} 
