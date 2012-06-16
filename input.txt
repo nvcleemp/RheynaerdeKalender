@@ -20,11 +20,7 @@ S   31-12 #oudjaar
 S   30-10 #dinsdag tijdens herfstvakantie
 S   2-11  #dinsdag tijdens herfstvakantie
 
-S   26-12 #woensdag tijdens kerstvakantie
-S   28-12 #vrijdag tijdens kerstvakantie
-S   29-12 #zaterdag tijdens kerstvakantie
-S   2-1   #woensdag tijdens kerstvakantie
-S   4-1   #vrijdag tijdens kerstvakantie
+S   24-12 > 6-1 #kerstvakantie
 
 S   12-2  #dinsdag tijdens krokusvakantie
 S   15-2  #vrijdag tijdens krokusvakantie
@@ -33,6 +29,8 @@ S   2-4   #dinsdag tijdens paasvakantie
 S   5-4   #vrijdag tijdens paasvakantie
 S   9-4   #dinsdag tijdens paasvakantie
 S   12-4  #vrijdag tijdens paasvakantie
+
+S   *-6   #examenregime
 
 S   *-7   #gesloten in juli
 S   1-8 > 15-8 #gesloten begin augustus
@@ -52,8 +50,19 @@ PUF 23-6 #laatste tornooi
 VSB 26-8 #geen echte datum
 
 #trainingen WM (vakantiedagen dat er toch schermen is in Waasmunster)
-#formaat: WM <datum>
+WM  27-12  #donderdag tijdens kerstvakantie
+WM  3-1    #donderdag tijdens kerstvakantie
+WM  5-1    #laatste zaterdag van kerstvakantie
+
+WM  1-6    #zaterdag tijdens examenregime
+WM  8-6    #zaterdag tijdens examenregime
+WM  15-6    #zaterdag tijdens examenregime
+WM  22-6    #zaterdag tijdens examenregime
+WM  29-6    #zaterdag tijdens examenregime
 
 #trainingen DM (vakantiedagen dat er toch schermen is in Dendermonde)
-#formaat: DM <datum>
+DM  7-6    #vrijdag tijdens examenregime
+DM  14-6    #vrijdag tijdens examenregime
+DM  21-6    #vrijdag tijdens examenregime
+DM  28-6    #vrijdag tijdens examenregime
 
