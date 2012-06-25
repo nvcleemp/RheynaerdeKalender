@@ -33,21 +33,24 @@ S   12-4  #vrijdag tijdens paasvakantie
 S   *-6   #examenregime
 
 S   *-7   #gesloten in juli
-S   1-8 > 15-8 #gesloten begin augustus
+S   *-8   #gesloten augustus, behalve op een paar dagen
 
 #Vrije schermavonden
+VRIJ 1-8
+VRIJ 8-8
 VRIJ 5-6
 VRIJ 12-6
 VRIJ 19-6
 VRIJ 26-6
 
 #PUF tornooien
-PUF 16-9 #eerste tornooi
-         #Pannenkoek Unique
+PUF 2-9  #eerste tornooi
+PUF 10-2 #Pannenkoek Unique
 PUF 23-6 #laatste tornooi
 
 #VSB beker
-VSB 26-8 #geen echte datum
+VSB 7-10  #VSB Leuven
+VSB 11-11 #VSB Sint-Niklaas
 
 #trainingen WM (vakantiedagen dat er toch schermen is in Waasmunster)
 WM  27-12  #donderdag tijdens kerstvakantie
@@ -59,6 +62,12 @@ WM  8-6    #zaterdag tijdens examenregime
 WM  15-6    #zaterdag tijdens examenregime
 WM  22-6    #zaterdag tijdens examenregime
 WM  29-6    #zaterdag tijdens examenregime
+
+WM  16-8
+WM  20-8
+WM  23-8
+WM  27-8
+WM  30-8
 
 #trainingen DM (vakantiedagen dat er toch schermen is in Dendermonde)
 DM  7-6    #vrijdag tijdens examenregime
