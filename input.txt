@@ -20,6 +20,13 @@ S   31-12 #oudjaar
 S   30-10 #dinsdag tijdens herfstvakantie
 S   2-11  #dinsdag tijdens herfstvakantie
 
+S   3-12  #examenregime december
+S   4-12  #examenregime december
+S   10-12 #examenregime december
+S   11-12 #examenregime december
+S   17-12 #examenregime december
+S   18-12 #examenregime december
+
 S   24-12 > 6-1 #kerstvakantie
 
 S   12-2  #dinsdag tijdens krokusvakantie
@@ -30,14 +37,20 @@ S   5-4   #vrijdag tijdens paasvakantie
 S   9-4   #dinsdag tijdens paasvakantie
 S   12-4  #vrijdag tijdens paasvakantie
 
+S   8-4  #maandag tijdens paasvakantie
+
+S   4-4   #skiverlof Guy
+
 S   *-6   #examenregime
 
 S   *-7   #gesloten in juli
 S   *-8   #gesloten augustus, behalve op een paar dagen
 
 #Vrije schermavonden
-VRIJ 1-8
-VRIJ 8-8
+VRIJ 6-8
+VRIJ 13-8
+VRIJ 29-12
+VRIJ 5-1
 VRIJ 5-6
 VRIJ 12-6
 VRIJ 19-6
@@ -63,7 +76,6 @@ WM  15-6    #zaterdag tijdens examenregime
 WM  22-6    #zaterdag tijdens examenregime
 WM  29-6    #zaterdag tijdens examenregime
 
-WM  16-8
 WM  20-8
 WM  23-8
 WM  27-8
