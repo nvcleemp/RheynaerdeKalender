@@ -22,7 +22,7 @@ if(Sunday) [black!50] \trainingen;}
 %s}
 
 \newcommand{\waasmunster}{\node [anchor=base,fill=lightgray,draw=lightgray,rounded corners=0pt,inner sep=0pt,minimum size=10pt] {};}
-\newcommand{\oefenWM}{\node [draw=gray,regular polygon,regular polygon sides=5,rounded corners=0pt] {};}
+\newcommand{\oefenWM}{\node [draw=gray,anchor=base,rounded corners=0pt,inner sep=0pt,minimum size=10pt] {};}
 \newcommand{\dendermonde}{\node [fill=lightgray,draw=lightgray,circle,rounded corners=0pt] {};}
 \newcommand{\puf}{\node [draw=lightgray,regular polygon,regular polygon sides=3,rounded corners=0pt] {};}
 \newcommand{\vsb}{\node [draw=lightgray,star,star point ratio=1.65,rounded corners=0pt] {};}
