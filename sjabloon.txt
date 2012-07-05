@@ -24,6 +24,7 @@ if(Sunday) [black!50] \trainingen;}
 \newcommand{\waasmunster}{\node [anchor=base,fill=lightgray,draw=lightgray,rounded corners=0pt,inner sep=0pt,minimum size=10pt] {};}
 \newcommand{\oefenWM}{\node [draw=gray,anchor=base,rounded corners=0pt,inner sep=0pt,minimum size=10pt] {};}
 \newcommand{\dendermonde}{\node [fill=lightgray,draw=lightgray,circle,rounded corners=0pt] {};}
+\newcommand{\oefenDM}{\node [draw=lightgray,circle,rounded corners=0pt] {};}
 \newcommand{\puf}{\node [draw=lightgray,regular polygon,regular polygon sides=3,rounded corners=0pt] {};}
 \newcommand{\vsb}{\node [draw=lightgray,star,star point ratio=1.65,rounded corners=0pt] {};}
 
@@ -59,6 +60,7 @@ postaction={decorate,decoration={markings,mark=at position 0.53 with {\node[fill
 \tikz\dendermonde; Training in Dendermonde\\
 \tikz\waasmunster; Training in Waasmunster\\
 \tikz\oefenWM; Vrij schermen in Waasmunster\\
+\tikz\oefenDM; Vrij schermen in Dendermonde\\
 \tikz\puf; PUF\\
 \tikz\vsb; VSB-beker
 

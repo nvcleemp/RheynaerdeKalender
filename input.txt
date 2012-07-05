@@ -47,14 +47,16 @@ S   *-7   #gesloten in juli
 S   *-8   #gesloten augustus, behalve op een paar dagen
 
 #Vrije schermavonden
-VRIJ 6-8
-VRIJ 13-8
-VRIJ 29-12
-VRIJ 5-1
-VRIJ 5-6
-VRIJ 12-6
-VRIJ 19-6
-VRIJ 26-6
+VRIJWM 6-8
+VRIJWM 13-8
+VRIJWM 29-12
+VRIJWM 5-1
+VRIJWM 5-6
+VRIJWM 12-6
+VRIJWM 19-6
+VRIJWM 26-6
+
+VRIJDM 28-6
 
 #PUF tornooien
 PUF 2-9  #eerste tornooi
@@ -85,5 +87,4 @@ WM  30-8
 DM  7-6    #vrijdag tijdens examenregime
 DM  14-6    #vrijdag tijdens examenregime
 DM  21-6    #vrijdag tijdens examenregime
-DM  28-6    #vrijdag tijdens examenregime
 

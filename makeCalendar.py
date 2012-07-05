@@ -38,7 +38,7 @@ def parseDatumBestand(bestand):
     #de eerste regel moet het jaartal bevatten
     jaar = int(bestand.readline())
 
-    d = {'VAK':set(), 'S':set(), 'VRIJ':set(), 'PUF':set(), 'VSB': set(), 'WM':set(), 'DM':set()}
+    d = {'VAK':set(), 'S':set(), 'VRIJWM':set(), 'VRIJDM':set(), 'PUF':set(), 'VSB': set(), 'WM':set(), 'DM':set()}
     for regel in bestand:
         regel = regel.strip()
 
@@ -64,8 +64,10 @@ def verwerkDag(dag, dagen):
     else:
         s = ''
 
-    if dag in dagen['VRIJ']:
+    if dag in dagen['VRIJWM']:
         s+= 'if (equals=%02d-%02d) {\\oefenWM}%%\n' % (dag.month, dag.day)
+    if dag in dagen['VRIJDM']:
+        s+= 'if (equals=%02d-%02d) {\\oefenDM}%%\n' % (dag.month, dag.day)
     elif dag in dagen['PUF']:
         s+= 'if (equals=%02d-%02d) {\\puf}%%\n' % (dag.month, dag.day)
     elif dag in dagen['VSB']:
